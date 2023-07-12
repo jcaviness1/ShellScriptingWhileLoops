@@ -1,6 +1,6 @@
 # ShellScriptingWhileLoops
 
-Exercise 1:
+Exercise 1: solution-01.sh
 
 Write a shell script that loops through the /etc/passwd file one line at a time. Prepend each line with a line number followed by a colon and then a space.
 
@@ -11,7 +11,7 @@ Example output:
 3: bin:x:2:2:bin:/bin:/usr/sbin/nologin
 4: sys:x:3:3:sys:/dev:/usr/sbin/nologin
 
-Exercise 2:
+Exercise 2: solution-02.sh
 
 Write a shell script that asks the user for the number of lines they would like to display from the /etc/passwd file and display those lines.
 
@@ -22,7 +22,7 @@ root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 
-Exercise 3:
+Exercise 3: solution-03.sh
 
 Write a shell script that that allows a user to select an action from the menu. The actions are to show the disk usage, show the uptime on the system, and show the users that are logged into the system. Tell the user to enter q to quit. Display "Goodbye!" just before the script exits.
 
